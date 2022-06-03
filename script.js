@@ -1,7 +1,7 @@
 //**************************VALORES INICIAIS***************************//
 // LOCAL DE DECLARAÇÃO DE CONST:
 const pixelBoard = document.getElementById('pixel-board'); // Tabela de Pixel
-const colorPalette = document.getElementById('defaut-colors'); // Tabela de Cores
+const colorPalette = document.getElementsByClassName('defaut-colors'); // Tabela de Cores
 const colorArray = document.querySelectorAll('.color'); // Array das cores
 const clearBoard = document.getElementById('clear-board'); // Botao de Rersetar
 // CONFIURAÇÃO DAS CORES:
