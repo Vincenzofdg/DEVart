@@ -37,6 +37,16 @@ body {
   width: 50px;
 }
 
+#tag {
+  background-color: #6e73ce;
+  color: #cbafe7;
+  font-weight: bold;
+  width: 40px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
 .pixel {
   margin-bottom: -5px;
   background-color: white;
