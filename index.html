@@ -8,58 +8,25 @@
     <link rel="stylesheet" href="style.css">    
 </head>
 <body>
-    <!--CABEÇA DA PAGINA-->
-    <header class="top-side"></header>
-
-    <!--CORPO DA PAGINA-->
-    <main class="middle-side">
-        <section class="color-options">
-            <h1 id="title">Paleta de Cores</h1>
-            
-            <div id="color-palette">
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-                <div class="color"></div>
-            </div>
-        </section>
-        <section class="table-to-color">
-            <div>
-                <input type="number" id="board-size" min="1" max="7">
-                <button id="generate-board">VQV</button>
-            </div>
+    <section class="color-options">      
+        <div id="defaut-colors">
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        
+        <div>
+            <input type="number" id="board-size" min="1">
+            <button id="generate-board">VQV</button>
             <button id="clear-board">Limpar</button>
-            <div id="pixel-board">
-            </div>            
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <!--PÉ DA PAGINA-->
-    <footer class="bottom-side">
-
-    </footer>
+    <section id="pixel-board">         
+    </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--JavaScript-->
     <script src="script.js"></script>
 </body>
 </html>

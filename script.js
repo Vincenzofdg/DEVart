@@ -1,10 +1,10 @@
 //**************************VALORES INICIAIS***************************//
-    // LOCAL DE DECLARAÇÃO DE CONST:
-const pixelBoard = document.getElementById('pixel-board'); // Tabela de Pixel
+// LOCAL DE DECLARAÇÃO DE CONST:
+const pixelBoard = document.getElementById('defaut-colors'); // Tabela de Pixel
 const colorPalette = document.getElementById('color-palette'); // Tabela de Cores
 const colorArray = document.querySelectorAll('.color'); // Array das cores
 const clearBoard = document.getElementById('clear-board'); // Botao de Rersetar
-    // CONFIURAÇÃO DAS CORES:
+// CONFIURAÇÃO DAS CORES:
 const black = document.getElementsByClassName('color')[0]
 const green = document.getElementsByClassName('color')[1]
 const red = document.getElementsByClassName('color')[2]
@@ -13,7 +13,8 @@ black.style.backgroundColor = 'black';
 green.style.backgroundColor = 'green';
 red.style.backgroundColor = 'red';
 purple.style.backgroundColor = 'purple';
-    // COR INICIAL SELECIONADA (DEFAULT):
+
+// COR INICIAL SELECIONADA (DEFAULT):
 function defautMode() {
     let defautColor = document.getElementsByClassName('color')[0]
     defautColor.classList.add('selected');
@@ -96,7 +97,7 @@ colorFill()
 
 // RESETANDO O QUE FOI COLORIDO (BOTÃO)
 function reset() {
-    let pixelArray = document.querySelectorAll('.pixel');// Array das pixel
+    let pixelArray = document.querySelectorAll('.pixel'); // Array das pixel
     clearBoard.addEventListener('click', function () {
         for (let index = 0; index < pixelArray.length; index++) {
             pixelArray[index].style.backgroundColor = 'white';
