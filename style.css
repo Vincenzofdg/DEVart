@@ -49,9 +49,9 @@ body {
 }
 
 .input-pixels {
-  background-color: #092981;
+  background-color: #bac0d1;
   font-weight: bold;
-  color: rgb(243, 225, 225);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   width: 120px;
   margin: 8rem 0 3rem;
