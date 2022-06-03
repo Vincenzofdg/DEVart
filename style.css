@@ -41,7 +41,7 @@ header {
   color: #cbafe7;
   font-weight: bold;
   width: 40px;
-  height: 25px;
+  height: 60px;
   border: none;
   border-radius: 4px;
 }
@@ -63,7 +63,6 @@ header {
   color: rgb(0, 0, 0);
   cursor: pointer;
   width: 120px;
-  margin: 8rem 0 3rem;
   padding: 16px 20px;
   border: none;
   border-radius: 4px;
