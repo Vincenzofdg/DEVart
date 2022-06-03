@@ -5,14 +5,15 @@ const colorPalette = document.getElementsByClassName('defaut-colors'); // Tabela
 const colorArray = document.querySelectorAll('.color'); // Array das cores
 const clearBoard = document.getElementById('clear-board'); // Botao de Rersetar
 // CONFIURAÇÃO DAS CORES:
-const black = document.getElementsByClassName('color')[0]
-const green = document.getElementsByClassName('color')[1]
-const red = document.getElementsByClassName('color')[2]
-const purple = document.getElementsByClassName('color')[3]
-black.style.backgroundColor = 'black';
-green.style.backgroundColor = 'green';
-red.style.backgroundColor = 'red';
-purple.style.backgroundColor = 'purple';
+const black = document.querySelector('#black');
+const green = document.querySelector('#green');
+const red = document.querySelector('#red');
+const purple = document.querySelector('#purple');
+
+//black.style.backgroundColor = 'black';
+//green.style.backgroundColor = 'green';
+//red.style.backgroundColor = 'red';
+//purple.style.backgroundColor = 'purple';
 
 // COR INICIAL SELECIONADA (DEFAULT):
 function defautMode() {
