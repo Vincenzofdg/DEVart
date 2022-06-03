@@ -23,7 +23,6 @@ body {
 }
 
 .color {
-  display: inline-block;
   border-width: 3px;
   border-style: solid;
   border-color: black;
