@@ -22,7 +22,7 @@ body {
   margin-top: 1rem;
 }
 
-.menu-selection {
+.defaut-colors {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
