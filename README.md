@@ -5,6 +5,10 @@
  - Events;
  - Web Storage.
 
+**Framework?**
+- [ ] Yes
+- [x] No
+
 ## Preview:
 
 ![image](preview.gif)
