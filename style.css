@@ -14,12 +14,11 @@ body {
   min-height: 100vh;
 }
 
-.menu-selection {
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 45%;
-  margin-top: 1rem;
 }
 
 .defaut-colors {
