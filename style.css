@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .color {
