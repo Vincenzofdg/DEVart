@@ -24,13 +24,11 @@ body {
 
 .color {
   display: inline-block;
-  border-width: 1px;
+  border-width: 3px;
   border-style: solid;
   border-color: black;
   height: 40px;
   width: 50px;
-  margin-top: -10px;
-  margin-left: -4px;
 }
 
 .pixel {
