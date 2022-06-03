@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 * {
@@ -18,7 +19,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   width: 45%;
-  font-size: 15px;
+  margin-top: 4rem;
 }
 
 .color {
@@ -43,6 +44,25 @@ body {
   border-width: 1px;
 }
 
-#board-size, #generate-board {
-  display: inline-block;
+.input-pixels {
+  background-color: #092981;
+  font-weight: bold;
+  color: rgb(243, 225, 225);
+  cursor: pointer;
+  width: 120px;
+  margin: 8rem 0 3rem;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-styled {
+  background-color: #3b409e;
+  color: #cbafe7;
+  font-weight: bold;
+  width: 80px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
