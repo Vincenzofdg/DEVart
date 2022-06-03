@@ -22,6 +22,12 @@ body {
   margin-top: 1rem;
 }
 
+.menu-selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .color {
   border-width: 3px;
   border-style: solid;
